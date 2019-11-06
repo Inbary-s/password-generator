@@ -1,0 +1,47 @@
+    //Project Plan:
+
+    // FRONT END:
+    Check off anything that's done:
+    - create wireframe for password generator  // done 
+    - Create JS file:
+        - figure out logic as follows(?):
+            //Pseudo Code//
+            ///code description:
+              - prompt("Please select the length of your password. A good password is at least 8 characters and at a maximum of 128 characters")  
+                    - limit response to only numeral
+                    - limit to 8-128 range
+                    - create error alert for anything else
+              - Alert #1 ("select at least one of the following options")
+              - Alert #2 ("Would you like to include special characters?")
+              - Alert #3 ("Would you like to include numeric characters?")
+              - Alert #4 ("Would you like to include lowercase characters?")
+              - Alert #5 ("Would you like to include uppercase characters?")
+              - Validate at least one is confirmed
+              - window.write (print) to the page the generated password.
+              - Create a "Copy PW" button (**bonus / time permiting)
+
+            ///Pseudo:
+            if (prompt value i.e x >= 8 && x < 128) {
+                alert #1;
+                alert #2;
+                alert #3;
+                alert #4;
+                alert #5;
+            } else {
+                alert error
+            } 
+            function(generator) = mathfloor.mathrandom
+                if alert #2 = true - include special characters
+                if alert #3 = true - include numeric characters
+                if alert #4 = true - include lowercase characters
+                if alert #2 = true - include uppercase characters
+                print return on HTML
+
+    - Create CSS file:
+        - style this thing! 
+    - Create HTML file:
+        - link css and bootstrap
+        - add wireframe
+        - add content
+        - link js to file
+    - Edit README
