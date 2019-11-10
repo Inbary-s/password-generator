@@ -57,10 +57,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       for (var i = 0; i < a; i++) {
         randomPW += b[Math.floor(Math.random() * b.length)];
       }
-      var node = document.createElement("h1");
-      var textnode = document.createTextNode(randomPW);
-      node.appendChild(textnode);
-      document.getElementById("pwBox").appendChild(node);
+      
+      document.getElementById("pw").textContent=randomPW;
       
       document.getElementById("copy").addEventListener("click", function() {    
         var text = randomPW;
@@ -73,13 +71,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
       })};
     })
-    
-  //   document.getElementById("generate").addEventListener("click", function(){
-  //     clearContent();
-  //     clearContent() => {      
-  //     function clearContent(pwBox) { 
-  //       document.getElementById(pwBox).innerHTML = ""; 
-  //     }
-  //   };
-  // });
-  //   clearContent();
