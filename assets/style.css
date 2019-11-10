@@ -1,9 +1,11 @@
 #pwBox {
     width: 80%;
-    height: 300px;
+    height: 350px;
     background-color: rgba(164, 178, 255, 0.534);
-    margin: 0 10% 0 10%;
+    margin: 2% 10% 2% 10%;
     border-radius: 20px;
+    box-shadow: 0px -1px 15px 1px rgba(76, 29, 122, 0.507);
+    
   }
 
   .row{
@@ -13,21 +15,25 @@
   body{
       padding: 2%;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 100%;
   }
   
   h1 {
-      margin: auto;
       text-align: center;
       color: rebeccapurple;
-      margin-top: 2%;
-      padding: 10px;
+      top: 0;
+      padding: 20px 35% 20px 35%;
+      color: #FFFFFF;
+      background: #232323;
+      text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c918ff, 0 0 30px rgb(143, 24, 255), 0 0 40px rgb(182, 24, 255), 0 0 55px rgb(182, 24, 255), 0 0 30px rgb(143, 24, 255), 0 0 75px #8418ff;
+      color: #FFFFFF;
     }
     
     
     h2 {
         color: teal;
         text-align: center;
-        margin-top: 2%;
+        margin-top: 6%;
     }
     
     h3 {
@@ -42,12 +48,13 @@
         padding: 10px;
         margin: 10px;
         color: rgb(96, 44, 148);
-        text-shadow: 1px 1px rgb(146, 146, 146);
+        text-shadow: 2px 2px rgba(75, 29, 122, 0.507), 4px 5px rgba(76, 29, 122, 0.507), 1px 1px rgba(76, 29, 122, 0.507);
         font-size: 200%;
+        text-align: center;
     }
 
   .btns {
-      padding-top: 20px;
+      padding-top: 10px;
   }
 
   .btn {
@@ -63,4 +70,9 @@
       h4{
           font-size: 16px;
       }
-  }
+     .btns {
+        position: relative;
+        float: left;
+        align-content: center;
+     }
+    }
